@@ -1,0 +1,74 @@
+POLÍTICA DE PRIVACIDAD / PRIVACY POLICY
+Extensión: YouTube Vocal Remover (Instantáneo)
+Identificador: mdc-youtube-vocal-remover
+Desarrollador: Mariano Damian
+Última actualización: Noviembre 2026
+
+================================================================================
+VERSIÓN EN ESPAÑOL
+================================================================================
+
+1. INTRODUCCIÓN Y COMPROMISO CON LA PRIVACIDAD
+La extensión "YouTube Vocal Remover (Instantáneo)", desarrollada por Mariano Damian, está diseñada con un estricto respeto hacia la privacidad y seguridad de sus usuarios. Esta Política de Privacidad describe cómo opera la extensión y confirma que NO recopilamos, transmitimos, almacenamos externamente ni compartimos ningún tipo de dato personal ni información identificable del usuario.
+
+2. INFORMACIÓN QUE NO SE RECOPILA
+La extensión NO recopila bajo ninguna circunstancia:
+- Nombres, correos electrónicos, números telefónicos ni datos de contacto.
+- Información de cuentas, nombres de usuario ni credenciales de inicio de sesión de Google o YouTube.
+- Historial de navegación, búsquedas realizadas, videos visitados ni listas de reproducción.
+- Datos de pago, tarjetas de crédito ni transacciones financieras.
+- Direcciones IP, geolocalización ni identificadores únicos de dispositivo.
+- Métricas de uso ni estadísticas de telemetría analítica.
+
+3. USO DE PERMISOS Y ALMACENAMIENTO LOCAL
+La extensión solicita únicamente los permisos estrictamente necesarios para su funcionamiento técnico:
+- activeTab: Permite que el menú emergente (popup) envíe órdenes directas a la pestaña activa de YouTube para activar o desactivar la cancelación de voz sobre el reproductor de video HTML5.
+- storage: Emplea el almacenamiento local del navegador (chrome.storage.local) exclusivamente para recordar la preferencia del usuario (activado o desactivado). Dicho dato se guarda de forma local en su dispositivo y nunca se envía a servidores externos.
+- Permiso de Host (*://*.youtube.com/*): Requerido exclusivamente para ejecutar el script de audio (Web Audio API) en los videos reproducidos en YouTube, procesando los canales estéreo en tiempo real en la memoria local del navegador.
+
+4. PROCESAMIENTO 100% LOCAL Y EN TIEMPO REAL
+Todo el procesamiento de audio para remover la voz se realiza de manera 100% local en el dispositivo del usuario utilizando la Web Audio API nativa de Google Chrome. Ninguna pista de audio ni contenido multimedia es transmitido, subido o redirigido a servidores remotos ni a terceros.
+
+5. TRANSFERENCIA Y DIVULGACIÓN A TERCEROS
+No vendemos, alquilamos, distribuimos ni transferimos datos de usuarios a terceras partes, redes publicitarias ni intermediarios de datos.
+
+6. CUMPLIMIENTO DE LAS POLÍTICAS DE CHROME WEB STORE
+Esta extensión cumple rigurosamente con el Programa de Políticas para Desarrolladores de Chrome Web Store, en especial con los principios de Privacidad, Uso Limitado de Permisos y Protección de Datos de Usuario.
+
+7. CONTACTO
+Para cualquier duda, comentario o consulta referente a esta política de privacidad, el desarrollador puede ser contactado a través del perfil oficial de desarrollador en Chrome Web Store.
+
+
+================================================================================
+ENGLISH VERSION (PRIVACY POLICY)
+================================================================================
+
+1. INTRODUCTION AND PRIVACY COMMITMENT
+The extension "YouTube Vocal Remover (Instantáneo)", developed by Mariano Damian, is built with a strict commitment to user privacy and security. This Privacy Policy outlines how the extension operates and certifies that we DO NOT collect, transmit, store externally, or share any personal data or personally identifiable information from users.
+
+2. DATA NOT COLLECTED
+Under no circumstances does this extension collect:
+- Names, email addresses, phone numbers, or any contact information.
+- Account details, usernames, or login credentials for Google or YouTube.
+- Browsing history, search queries, visited videos, or playlists.
+- Payment details, credit card numbers, or transaction data.
+- IP addresses, geolocation, or unique hardware identifiers.
+- Telemetry, usage analytics, or behavioral tracking data.
+
+3. PERMISSIONS USAGE AND LOCAL STORAGE
+The extension requests only the minimum permissions essential for its technical operation:
+- activeTab: Enables the popup interface to communicate directly with the active YouTube tab to toggle the real-time vocal cancellation filter on the HTML5 video player.
+- storage: Uses the browser's local storage API (chrome.storage.local) solely to remember user toggle preferences (enabled/disabled). This data remains strictly stored on the user's local device and is never uploaded to any remote server.
+- Host Permission (*://*.youtube.com/*): Strictly necessary to inject the audio processing script (Web Audio API) into YouTube video pages to process stereo audio channels in real time directly within device memory.
+
+4. 100% CLIENT-SIDE & REAL-TIME PROCESSING
+All audio manipulation is computed 100% locally on the user's computer via the browser's native Web Audio API. No audio tracks, video streams, or media files are ever recorded, saved, uploaded, or transmitted across the internet.
+
+5. THIRD-PARTY DISCLOSURE
+We do not sell, rent, trade, or transfer any user information to third parties, advertising networks, or data brokers.
+
+6. CHROME WEB STORE POLICY COMPLIANCE
+This extension fully adheres to the Google Chrome Web Store Developer Program Policies, including the Single Purpose Policy, Limited Use Requirements, and User Data Protections.
+
+7. CONTACT
+If you have any questions or inquiries regarding this Privacy Policy, please contact the developer via the official developer profile on the Chrome Web Store.
